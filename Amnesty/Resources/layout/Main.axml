@@ -4,10 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
-    android:minHeight="25px">
+    android:minHeight="25px"
+    android:background="#ffffffff">
     <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@android:drawable/logo.png"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView1" />
+        android:id="@+id/logo" />
 </LinearLayout>
