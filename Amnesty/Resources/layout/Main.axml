@@ -7,8 +7,8 @@
     android:minHeight="25px"
     android:background="#ffffffff">
     <ImageView
-        android:src="@android:drawable/logo.png"
+        android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/logo" />
+        android:id="@+id/imageView1" />
 </LinearLayout>
