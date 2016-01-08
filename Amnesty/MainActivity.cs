@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace Amnesty
 {
-	[Activity (Label = "Amnesty", MainLauncher = true, Icon = "@mipmap/icon", Theme = "@android:style/Theme.Black.NoTitleBar.Fullscreen")]
+	[Activity (Label = "Amnesty", MainLauncher = true, 	Icon = "@mipmap/icon", Theme = "@android:style/Theme.Black.NoTitleBar.Fullscreen")]
 	public class MainActivity : Activity
 	{
 
