@@ -23,9 +23,7 @@
                 android:layout_width="300dp"
                 android:scaleType="fitCenter"
                 android:layout_gravity="center"
-                android:src="@drawable/logo_transparent">
-                <requestFocus />
-            </ImageView>
+                android:src="@drawable/logo_transparent" />
             <TextView
                 android:text="@string/app_title1"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -54,84 +52,77 @@
             android:layout_marginRight="14dp"
             android:layout_marginBottom="36dp">
             <TextView
-                android:text="@string/form_name"
+                android:text="@string/form_choices"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/textViewName"
+                android:id="@+id/textViewChoices"
                 android:layout_marginTop="12dp" />
-            <EditText
+            <CheckBox
+                android:text="@string/form_choices_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/editTextName"
-                android:hint="@string/form_name_input"
-                android:layout_marginTop="6dp"
-                android:singleLine="true" />
+                android:id="@+id/checkBox1" />
+            <CheckBox
+                android:text="@string/form_choices_input2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox2" />
             <TextView
-                android:text="@string/form_email"
+                android:text="@string/form_IBAN"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textViewEmail"
+                android:id="@+id/textViewIban"
                 android:layout_marginTop="24dp" />
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/editTextEmail"
-                android:hint="@string/form_email_input"
+                android:id="@+id/editTextIban"
+                android:hint="@string/form_IBAN_input"
                 android:layout_marginTop="6dp"
-                android:singleLine="true"
-                android:inputType="textEmailAddress" />
+                android:singleLine="true" />
             <TextView
-                android:text="@string/form_street"
+                android:text="@string/form_BIC"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textViewStreet"
+                android:id="@+id/textViewBic"
                 android:layout_marginTop="24dp" />
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/editTextStreet1"
-                android:hint="@string/form_street_input1"
+                android:id="@+id/editTextBic"
+                android:hint="@string/form_BIC_input"
                 android:layout_marginTop="6dp"
                 android:singleLine="true" />
-            <EditText
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_height="wrap_content"
-                android:id="@+id/editTextStreet2"
-                android:hint="@string/form_street_input2"
-                android:layout_marginTop="6dp"
-                android:singleLine="true" />
+                android:layout_width="match_parent">
+                <TextView
+                    android:text="@string/form_eurosign"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewEuro"
+                    android:layout_marginTop="12dp" />
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextEuro"
+                    android:hint="@string/form_eurosign_input"
+                    android:layout_marginTop="12dp"
+                    android:singleLine="true"
+                    android:inputType="number" />
+            </LinearLayout>
             <TextView
-                android:text="@string/form_postalcode"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/form_bedrag2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textViewPostalcode"
+                android:id="@+id/textViewBedrag2"
                 android:layout_marginTop="24dp" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/editTextPostalcode"
-                android:hint="@string/form_postalcode_input"
-                android:layout_marginTop="6dp"
-                android:singleLine="true"
-                android:inputType="number" />
-            <TextView
-                android:text="@string/form_city"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textViewCity"
-                android:layout_marginTop="24dp" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/editTextCity"
-                android:hint="@string/form_city_input"
-                android:layout_marginTop="6dp"
-                android:singleLine="true" />
             <RelativeLayout
                 android:id="@+id/linearContainer3"
                 android:layout_width="match_parent"
@@ -139,20 +130,31 @@
                 android:textAlignment="viewEnd"
                 android:showDividers="none">
                 <TextView
-                    android:text="@string/pageOne"
+                    android:text="@string/pageTwo"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/pageCount"
                     android:layout_marginTop="24dp"
                     android:layout_alignParentLeft="true" />
-                <Button
-                    android:text="@string/btn_next"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/ButtonNext"
-                    android:layout_marginTop="24dp"
-                    android:layout_alignParentRight="true" />
+                    android:layout_alignParentRight="true">
+                    <Button
+                        android:text="@string/btn_prev"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ButtonPrev"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginRight="12dp" />
+                    <Button
+                        android:text="@string/btn_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ButtonNext"
+                        android:layout_marginTop="24dp" />
+                </LinearLayout>
             </RelativeLayout>
         </LinearLayout>
     </RelativeLayout>

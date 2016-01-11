@@ -1,5 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">Amnesty International Vlaanderen</string>
-</resources>
+	<string name="app_name">AIV App</string>
+	<string name="app_title1">Donatie toevoegen</string>
+	<string name="btn_prev">Vorige</string>
+	<string name="btn_next">Volgende</string>
+	<string name="btn_control">Controleer gegevens</string>
+	<string name="btn_correct">Corrigeer</string>
+	<string name="btn_confirm">Bevestigen</string>
+	<string name="form_title1">Persoonlijke gegevens</string>
+	<string name="form_name">Volledige naam</string>
+	<string name="form_name_input">Bv. Pieter Van der Elst</string>
+	<string name="form_email">E-mailadres</string>
+	<string name="form_email_input">Bv. vde.pieter@gmail.com</string>
+	<string name="form_street">Straatnaam + nummer</string>
+	<string name="form_street_input1">Adreslijn 1</string>
+	<string name="form_street_input2">Adreslijn 2</string>
+	<string name="form_postalcode">Postcode</string>
+	<string name="form_postalcode_input">Bv. 2800</string>
+	<string name="form_city">Gemeente</string>
+	<string name="form_city_input">Bv. Mechelen</string>
+	<string name="form_choices">Ja, ik ontvang graag</string>
+	<string name="form_choices_input">Updates via e-mail</string>
+	<string name="form_choices_input2">Het Amnesty magazine per post</string>
+	<string name="form_IBAN">IBAN-nummer</string>
+	<string name="form_IBAN_input">Bv. BE00 0000 0000 0000</string>
+	<string name="form_BIC">BIC</string>
+	<string name="form_BIC_input">Bv. BANKBEBB</string>
+	<string name="form_bedrag">Ja, ik geef mijn bank toestemming om maandelijks</string>
+	<string name="form_eurosign">€</string>
+	<string name="form_eurosign_input">Bv. 10</string>
+	<string name="form_bedrag2">Over te schrijven naar rekening BE69 0680 6848 7178 - bic: GKCCBEBB van Amnesty International Vlaanderen vzw, met ingang van vandaag.</string>
+<!--	<string name="form_bedrag2_input1">11</string>
+	<string name="form_bedrag2_input2">Jan</string>
+	<string name="form_bedrag2_input3">2016</string>-->
+	<string name="form_legal1">Door ondertekening van dit mandaatformulier geef ik toestemming aan:</string>
+	<string name="form_legal2">(A) Amnesty International Vlaanderen vzw een opdracht te sturen naar mijn bank om een bedrag van mijn rekening te debiteren;</string>
+	<string name="form_legal3">(B) aan mijn bank om een bedrag van mijn rekening te debiteren in overeenstemming met de opdracht van Amnesty International Vlaanderen vzw.</string>
+	<string name="form_legal4">Een verzoek tot terugbetaling moet binnen 8 weken na de datum van debitering van het bedrag van mijn rekening worden ingediend. Ik kan bij mijn bank informatie krijgen over de terugbetaling en over mijn rechten met betrekking tot dit mandaat.</string>
+	<string name="form_legal5">Als het totaal van de giften tijdens het kalenderjaar €40 bereikt, bezorgen we je automatisch een fiscaal atterst in de loop van het eerste trimester van het volgende jaar zodat je je gift kan aftrekken van je belastingen.</string>
+	<string name="form_legal6">De opdracht kan op elk moment gestopt of gewijzigd worden. Neem hiervoor contact op via telefoon 0032 (0) 3 271 16 16 (op werkdagen van 9u tot 17u) of e-mail supporters@aivl.be.</string>
+	<string name="form_confirm">Ik heb bovenstaande gegevens goed nagekeken en ga akkoord met de voorwaarden</string>
+	<string name="pageOne">1/3</string>
+	<string name="pageTwo">2/3</string>
+	<string name="pageThree">3/3</string>
+	<string name="control_data">Samenvatting</string>
+</resources> 
